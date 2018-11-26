@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Boundless Glory - Find a Local Solar Installer</title>
+	<link rel="stylesheet" href="main.css">
+<!--[if IE 7]>
+	<style type="text/css">
+		fieldset legend {
+			margin-left: -7px;
+		}
+	</style>
+<![endif]-->
+</head>
+<body>
+	<div id="header">
+	<a href="index.html"><img src="images/bgsolar-logo2.png" height="84" width="450" alt="Boundless Glory Energy Ghana">
+	</a>
+	</div>
+	<div id="nav">
+	<a href="about.html">About Us</a>
+	<a href="services.html">Services</a>
+	<a href="home-work.html">Solar For Home & Work</a>
+	<a href="information.html">General Information</a>
+	<a href="contact.html">Contact Us</a>
+	</div>
+	<div id="container">
+		<div id="main">
+		<img src="images/banner-installation2.jpg" height="242" width="620" alt="">
+		<h1>Energy for your home</h1>
+		<h2>Find A Boundless Glory Solar Installer</h2>
+<form action="php-scripts/form-handler.php">
+				<fieldset>
+					<legend>Contact Info</legend>
+					<label for="nameField">Name:</label>
+						<input type="text" id="nameField" name="nameField" size="24">
+					<label for="emailField">Email:</label>
+						<input type="text" id="emailField" name="emailField" size="24">
+				</fieldset>
+				<fieldset>
+					<legend>Your Location</legend>
+					<select name="stateProvince" id="stateProvince">
+						<optgroup label="Ghana">  
+						    <option value="AC">Accra</option>
+						    <option value="KU">Kumasi</option>
+						    <option value="TL">Tamale</option>
+						    <option value="SE">Secondi-Takoradi</option>
+						    <option value="CC">Cape Coast</option>
+						    <option value="TE">Tema</option>
+						    <option value="KO">Koforidua</option>
+						    <option value="OB">Obuasi</option>
+						    <option value="SU">Sunyani</option>
+						    <option value="WA">Wa</option>
+						    <option value="BO">Bolgatanga</option>
+						    <option value="TEC">Techiman</option>
+						    <option value="WI">Winneba</option>
+						    <option value="MP">Mampong</option>
+						    <option value="GW">Gbawe</option>
+						    <option value="MG">Madina, Ghana</option>
+						    <option value="AS">Agona Swedru</option>
+						    <option value="BM">Berekum</option>
+						    <option value="AO">Agogo
+						    </option>
+						</optgroup>
+					</select>
+					<label for="zipField">Zip or Postal Code:</label>
+          			<input type="text" id="zipField" name="zipField" size="11" maxlength="10">
+				</fieldset>
+				<fieldset>
+					<legend>Your Current Energy Solutions</legend>
+					<input type="checkbox" id="electric" name="energySol[]" value="Electric">
+						 <label for="electric" class="labelSpace">Electric</label>
+					<input type="checkbox" id="fuel" name="energySol[]" value="Fuel">
+					 	<label for="fuel" class="labelSpace">Fuel</label>
+					<input type="checkbox" id="oil" name="energySol[]" value="Oil">
+					 	 <label for="oil">Oil</label>
+				</fieldset>
+				<fieldset>
+					<legend>Your Current Monthly Energy Costs</legend>
+					<input type="radio" id="costRangeLow" name="costRange" value="Low">
+          				<label for="costRangeLow" class="labelSpace">$0 - $15</label>
+          			<input type="radio" id="costRangeMed" name="costRange" value="Average">
+          				<label for="costRangeMed" class="labelSpace">$15 - $30</label>
+          			<input type="radio" id="costRangeHigh" name="costRange" value="High">
+          				<label for="costRangeHigh">$30 - $60</label>
+				</fieldset>
+				<fieldset id="comments">
+					<legend>Additional Information</legend>
+					<label for="commentsField">Comments and/or Questions</label>
+        			<textarea id="commentsField" name="commentsField" rows="5" cols="40"></textarea>
+				</fieldset>
+				<input type="submit" id="submit" name="submit" value="Find a Local Installer">
+				<input type="hidden" id="end_display" name="end_display" value="../thankyou.php">
+			</form>
+		</div>
+		<div id="aside">
+			<img src="images/sidebar-topbgeg.png" height="103" width="162" alt="">
+			<p><strong>Solar Fact of the Day</strong><br>
+			Even small solar electric systems have significant environmental impacts. A 2.5kW solar system reduces CO2 emissions by the equivalent of planting 1 acre of trees, or the amount of CO2 emitted by a passenger car driving 7,800 miles.</p>
+	</div>
+	</div>
+	<div id="footer">
+	<p>Copyright © Boundless Glory Energy Ghana</p>	
+	</div>
+
+</body>
+</html>
